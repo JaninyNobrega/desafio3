@@ -56,7 +56,7 @@ O objetivo é praticar conceitos de lógica de programação e interatividade no
 ---
 
 ## 📷 Prévia do Projeto
-> _(adicione aqui um print da tela do seu projeto quando quiser)_
+<img width="1070" height="809" alt="image" src="https://github.com/user-attachments/assets/59b6b4d8-1150-431c-a952-c2f9a3a58772" />
 
 ---
 
