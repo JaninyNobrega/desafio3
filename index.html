@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ferramentas Financeiras</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<!-- Botão flutuante do WhatsApp -->
+<a href="https://wa.me/5585999525131" target="_blank" id="whatsapp-button">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+</a>
+
+<body>
+  <h1>💰 Ferramentas Financeiras</h1>
+
+  <!-- Seção 1: Juros Compostos -->
+  <div class="card">
+    <h2>Calculadora de Juros Compostos</h2>
+    <form id="form-juros">
+      <label for="capital">Capital Inicial (R$):</label>
+      <input type="number" id="capital" required>
+
+      <label for="taxa">Taxa de Juros (%):</label>
+      <input type="number" id="taxa" required>
+
+      <label for="tempo">Tempo (meses):</label>
+      <input type="number" id="tempo" required>
+
+      <button type="submit">Calcular</button>
+    </form>
+    <h3 id="resultado-juros"></h3>
+  </div>
+
+  <!-- Seção 2: Validador de Carteira Cripto -->
+  <div class="card">
+    <h2>Validador de Endereço de Carteira Cripto</h2>
+    <form id="form-carteira">
+      <label for="carteira">Endereço da Carteira:</label>
+      <input type="text" id="carteira" required>
+      <button type="submit">Validar</button>
+    </form>
+    <h3 id="resultado-carteira"></h3>
+  </div>
+
+  <!-- Seção 3: Organizador de Transações -->
+  <div class="card">
+    <h2>Organizar Transações</h2>
+    <form id="form-transacoes">
+      <label for="transacoes">Valores separados por vírgula:</label>
+      <input type="text" id="transacoes" placeholder="Ex: 100, 250, 50" required>
+      <button type="submit">Organizar</button>
+    </form>
+    <h3>Transações ordenadas:</h3>
+    <ul id="resultado-transacoes"></ul>
+  </div>
+
+  <!-- Seção 4: Força de Senha -->
+  <div class="card">
+    <h2>Validador de Força de Senha Financeira</h2>
+    <form id="form-senha">
+      <label for="senha">Digite sua senha:</label>
+      <input type="password" id="senha" required>
+      <button type="submit">Verificar</button>
+    </form>
+    <h3 id="resultado-senha"></h3>
+  </div>
+
+  <script src="script.js"></script>
+  <footer>
+    <p>💻 Desenvolvido por Janiny Nóbrega | © 2025 Ferramentas Financeiras</p>
+    <div class="social-links">
+      <a href="https://github.com/janinynobrega" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/janiny-nóbrega-27506b106" target="_blank">LinkedIn</a> |
+      <a href="https://twitter.com/jaaniny" target="_blank">Twitter</a>
+    </div>
+  </footer>
+
+  
+</body>
+</html>
